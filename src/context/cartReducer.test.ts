@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { cartReducer } from '../CartContext';
+import { cartReducer } from './CartContext';
 import type { CartState } from '@/types/ui';
 
 describe('cartReducer', () => {
